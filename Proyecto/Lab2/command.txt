@@ -1,0 +1,10 @@
+> Home
+!!Error: 4031, No se puede ejecutar un comando de movimiento cuando el motor está apagado.
+> MOTOR On
+> Home
+> Home
+> 
+Home
+!!Error: 2318, No se puede ejecutar un comando de movimiento cuando se ha detectado un error.
+> Home
+> 
