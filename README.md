@@ -63,7 +63,7 @@ De manera complementaria, en este repositorio se encuentra el material elaborado
 
 ### Configuración del proyecto
 
-En primera instancia, se crearon el proyecto y el controlador a utilizar en el mismo. Luego se seleccionó el robot con el que se iba a desarrollar la práctica (en este caso correspondiente al VT6-A901S), y se realizaron las configuraciones de puntos en los que se haría el paletizado, así como la posición de HOME.
+En primera instancia, se crearon el proyecto y el controlador a utilizar en el mismo. Luego se seleccionó el robot con el que se iba a desarrollar la práctica (en este caso correspondiente al VT6-A901S), y se realizaron las configuraciones de puntos en los que se haría el paletizado, así como la posición de HOME. Este paletizado se realizaba sin entradas digitales, ya que dentro del laboratorio no estaban conectadas. 
 
 
 ![sim](/Recursos/puntosfijados.png)(Puntos fijados)
@@ -81,7 +81,7 @@ Algunos de los comandos/instrucciones principales en el código fueron:
 punto a punto.  
 `Accel`: Define/arroja la aceleración y desaceleración para el movimiento de 
 punto a punto.  
-`Pallet`: Define un pálet o arroja un punto de pálet
+`Pallet`: Define un pálet o arroja un punto de pálet. Existe un parámetro opcional "Outside" donde el paletizado tomaba en cuenta la una parte exterior dentro de la rutina.
 
 El código utilizado puede ser consultado en la sección ```Proyecto/Lab2/Main.prg```
 
